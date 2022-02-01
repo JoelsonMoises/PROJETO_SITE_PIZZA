@@ -108,6 +108,14 @@ header div#chamada a {
     border-radius: 50px;
 
     background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35) 50%, rgba(6,89,2,35) 100% );
+
+    animation-name: HeaderA-moverParaCima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+
+    display: inline-block;
 }
 
 /* ---------------------------- */
